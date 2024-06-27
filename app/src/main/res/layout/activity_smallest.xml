@@ -1,0 +1,51 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#6DAC6F"
+    android:padding="50px"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F3F3F3"
+        android:text="Number 1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter First Number"
+        android:textColor="#F3F3F3"
+        android:id="@+id/num1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F3F3F3"
+        android:text="Number 2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+
+        android:hint="Enter Second Number"
+        android:id="@+id/num2"/>/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/small"
+        android:background="#1B7C1F"
+        android:layout_margin="20px"
+        android:textColor="#F3F3F3"
+        android:text="Smallest"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bcktohome"
+        android:textColor="#F3F3F3"
+        android:background="#1B7C1F"
+        android:layout_margin="20px"
+        android:text="Back To Home"/>
+
+
+</LinearLayout>

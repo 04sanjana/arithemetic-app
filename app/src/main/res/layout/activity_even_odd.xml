@@ -1,0 +1,39 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#6DAC6F"
+    android:padding="50px"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F3F3F3"
+        android:text="Number 1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number"
+             android:inputType="number"
+        android:id="@+id/num"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eveodd"
+        android:layout_margin="20px"
+        android:background="#1B7C1F"
+        android:textColor="#F3F3F3"
+         android:text="EvenOrOdd"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1B7C1F"
+        android:layout_margin="20px"
+        android:textColor="#F3F3F3"
+        android:id="@+id/bcktohome"
+    android:text="Back To Home"/>
+
+
+</LinearLayout>

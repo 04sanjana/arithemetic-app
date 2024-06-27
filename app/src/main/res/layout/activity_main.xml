@@ -1,0 +1,35 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#6DAC6F"
+    android:gravity="center"
+    android:padding="50px"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:background="#1B7C1F"
+        android:id="@+id/largest"
+        android:textColor="#F3F3F3"
+        android:text="Find Largest Number"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:background="#1B7C1F"
+        android:textColor="#F3F3F3"
+        android:id="@+id/small"
+        android:text="Find Smallest Number"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:background="#1B7C1F"
+        android:textColor="#F3F3F3"
+        android:id="@+id/eveodd"
+        android:text="Check Even Or Odd"/>
+
+</LinearLayout>
